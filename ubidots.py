@@ -2,7 +2,7 @@ import requests
 import random
 import time
 
-TOKEN = "BBFF-zzteXbRJk7zNGuVwues8JcyRzecWjh" # Assign your Ubidots Token
+TOKEN = "token" # Assign your Ubidots Token
 DEVICE = "smart-home" # Assign the device label to obtain the variable
 VARIABLE = "temperature" # Assign the variable label to obtain the variable value
 DELAY = 1  # Delay in seconds
