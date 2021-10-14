@@ -3,7 +3,7 @@ import requests
 import math
 import random
 
-TOKEN = "BBFF-zzteXbRJk7zNGuVwues8JcyRzecWjh"
+TOKEN = "token"
 DEVICE_LABEL = "smart-home"  
 VARIABLE_LABEL_1 = "temperature"
 #VARIABLE_LABEL_2 = "humidity"
