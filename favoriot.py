@@ -3,8 +3,8 @@ import time
 import json
 import random
 
-APIKEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFndXN5b2dpIiwicmVhZF93cml0ZSI6dHJ1ZSwiaWF0IjoxNTg4MTU2NzkwfQ.ggM0zc3F2zNQihGo9A1r732e0BIRabb9jOuX1p8lOxs"
-DEVICE_DEV_ID = "Test@agusyogi"
+APIKEY = "api_key"
+DEVICE_DEV_ID = "device_id"
 
 url = "https://apiv2.favoriot.com/v2/streams"
 
@@ -12,7 +12,7 @@ headers = {
     'apikey': APIKEY,
     'content-type': "application/json",
     'cache-control': "no-cache",
-    'postman-token': "b404ce24-2b0b-b9c8-8895-6324a6900c47"
+    'postman-token': "postman-token"
 }
 
 while True:
