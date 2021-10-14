@@ -3,7 +3,7 @@ import time
 import json
 import random
 
-ACCESS_TOKEN = "riaI8Y1pyLKMslC10Y5X"
+ACCESS_TOKEN = "access_token"
 
 url = "https://demo.thingsboard.io/api/v1/{}/telemetry".format(ACCESS_TOKEN)
 print(url)
